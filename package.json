@@ -1,0 +1,23 @@
+{
+  "name": "adsys-backend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbeynar/adsys-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbeynar/adsys-backend/issues"
+  },
+  "homepage": "https://github.com/jbeynar/adsys-backend#readme",
+  "dependencies": {
+    "@hapi/hapi": "19.1.1"
+  }
+}
