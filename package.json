@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jbeynar/adsys-backend#readme",
   "dependencies": {
-    "@hapi/hapi": "19.1.1"
+    "@hapi/hapi": "19.1.1",
+    "mongodb": "^3.5.3"
   }
 }
