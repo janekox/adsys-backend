@@ -21,6 +21,7 @@ const init = async () => {
         method: 'GET',
         path: '/ads',
         handler: (request, h) => {
+            console.log('Requested ads');
             return require('./data/ads.json');
         }
     });
@@ -28,6 +29,7 @@ const init = async () => {
         method: 'GET',
         path: '/ad/{id}',
         handler: (request, h) => {
+            console.log(`Requested ad with id ${request.params.id}`);
             const requestedId = request.params.id;
             const ads = require('./data/ads.json');
             const foundAd = ads.data.find(ad => ad._id === requestedId);
