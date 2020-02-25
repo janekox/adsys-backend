@@ -6,21 +6,32 @@ const init = async () => {
 
     const server = Hapi.server({
         port: 4000,
-        host: 'localhost'
+        host: '0.0.0.0',
+        routes: {cors: {origin: ['*']}}
     });
 
     server.route({
         method: 'GET',
         path: '/health',
         handler: (request, h) => {
-            return 'I\'m OK';
+            return {status: "I'm ok"};
         }
     });
     server.route({
         method: 'GET',
-        path: '/hello',
+        path: '/ads',
         handler: (request, h) => {
-            return 'Hello World!';
+            return require('./data/ads.json');
+        }
+    });
+    server.route({
+        method: 'GET',
+        path: '/ad/{id}',
+        handler: (request, h) => {
+            const requestedId = request.params.id;
+            const ads = require('./data/ads.json');
+            const foundAd = ads.data.find(ad => ad._id === requestedId);
+            return foundAd;
         }
     });
 
