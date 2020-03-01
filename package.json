@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
+    "seed": "node src/database/import.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/jbeynar/adsys-backend#readme",
   "dependencies": {
     "@hapi/hapi": "19.1.1",
+    "mongo-seeding": "^3.4.0",
     "mongodb": "^3.5.3"
   }
 }

@@ -1,5 +1,4 @@
-{
-  "data": [
+[
     {
       "_id": "cdaed56d-8712-414d-b346-01905d0026f1",
       "title": "Used bike",
@@ -80,15 +79,14 @@
       "email": "fake@gmail.com",
       "phone": "+4815876456"
     },
-    {
-      "_id": "cdaed56d-8712-414d-b346-01905d0026f9",
-      "title": "Laptop Sony",
-      "image": "https://www.notebookcheck.net/uploads/tx_nbc2/0_1425_sz_1_i_222364_02.jpg",
-      "condition": "Brand new",
-      "price": 3400,
-      "description": "Vivamus feugiat maximus scelerisque. Etiam nisi arcu, consectetur non pretium in, mattis nec turpis. ",
-      "email": "fake@gmail.com",
-      "phone": "+4412345678912"
-    }
-  ]
-}
+  {
+    "_id": "cdaed56d-8712-414d-b346-01905d0026f9",
+    "title": "Ferrari",
+    "image": "https://lh3.googleusercontent.com/proxy/0TAP04nRbRclMtbt9KGSRoaFJ9-oc8WDz4LJXHfqPbKZBpjQ-V4kgfb5yafCr-WziBRJNwS7F4ZcUq0zD8EBD1lKhrhYIwy05Bs1R6W6gn-zRHOYQReG1SaGQk7E1Yo",
+    "condition": "Used",
+    "price": 540000,
+    "description": "Vivamus feugiat maximus scelerisque. Etiam nisi arcu, consectetur non pretium in, mattis nec turpis. ",
+    "email": "richman@gmail.com",
+    "phone": "+4472345678912"
+  }
+]
