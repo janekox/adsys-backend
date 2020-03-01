@@ -1,6 +1,7 @@
 'use strict';
 
 const Hapi = require('@hapi/hapi');
+const DAO = require('./database/DAO');
 
 const init = async () => {
 
@@ -22,7 +23,7 @@ const init = async () => {
         path: '/ads',
         handler: (request, h) => {
             console.log('Requested ads');
-            return require('./data/ads.json');
+            return require('../data/ads.json');
         }
     });
     server.route({
@@ -31,9 +32,16 @@ const init = async () => {
         handler: (request, h) => {
             console.log(`Requested ad with id ${request.params.id}`);
             const requestedId = request.params.id;
-            const ads = require('./data/ads.json');
+            const ads = require('../data/ads.json');
             const foundAd = ads.data.find(ad => ad._id === requestedId);
             return foundAd;
+        }
+    });
+    server.route({
+        method: 'GET',
+        path: '/test',
+        handler: (request, h) => {
+            return DAO.findAds();
         }
     });
 
