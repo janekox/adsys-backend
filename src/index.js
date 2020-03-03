@@ -31,10 +31,9 @@ const init = async () => {
         path: '/ad/{id}',
         handler: (request, h) => {
             console.log(`Requested ad with id ${request.params.id}`);
-            const requestedId = request.params.id;
-            const ads = require('../data/ads/ads.json');
-            const foundAd = ads.data.find(ad => ad._id === requestedId);
-            return foundAd;
+            // TODO implement DAO method
+            // return DAO.findAd(request.params.id);
+            return {};
         }
     });
 

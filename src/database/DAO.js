@@ -14,7 +14,11 @@ const DAO = {
                 return data;
             });
         });
-    }
+    },
+    // TODO implement findAd(id) function - similar to findsDAO
+    // use findOne with appropriate query object
+    // it may looks like: { paramName: paramValue }
+    // https://mongodb.github.io/node-mongodb-native/3.5/api/Collection.html#findOne
 };
 
 module.exports = DAO;
