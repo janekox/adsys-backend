@@ -15,10 +15,15 @@ const DAO = {
             });
         });
     },
-    // TODO implement findAd(id) function - similar to findsDAO
-    // use findOne with appropriate query object
-    // it may looks like: { paramName: paramValue }
-    // https://mongodb.github.io/node-mongodb-native/3.5/api/Collection.html#findOne
+    findAd: (id) => {
+        const client = dblib.getClient();
+        return client.connect().then(() => {
+            return client.db().collection("ads").findOne({_id: id}).then(data => {
+                client.close();
+                return data;
+            });
+        });
+    }
 };
 
 module.exports = DAO;

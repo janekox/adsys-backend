@@ -31,9 +31,7 @@ const init = async () => {
         path: '/ad/{id}',
         handler: (request, h) => {
             console.log(`Requested ad with id ${request.params.id}`);
-            // TODO implement DAO method
-            // return DAO.findAd(request.params.id);
-            return {};
+            return DAO.findAd(request.params.id);
         }
     });
 
