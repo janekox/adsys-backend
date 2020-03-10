@@ -35,6 +35,18 @@ const init = async () => {
         }
     });
 
+    server.route({
+        method: 'POST',
+        path: '/ad',
+        handler: (request, h) => {
+            console.log('Requested ads');
+            console.log(request.payload);
+            return DAO.createAd(JSON.parse(request.payload));
+        }
+    });
+// todo 10/3/2020
+
+
     await server.start();
     console.log('Server running on %s', server.info.uri);
 };

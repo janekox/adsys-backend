@@ -23,6 +23,15 @@ const DAO = {
                 return data;
             });
         });
+    },
+    createAd: (data) => {
+        const client = dblib.getClient();
+        return client.connect().then(() => {
+            return client.db().collection("ads").insertOne(data).then(data => {
+                client.close();
+                return data;
+            });
+        });
     }
 };
 
