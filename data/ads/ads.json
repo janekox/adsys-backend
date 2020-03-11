@@ -1,6 +1,5 @@
 [
     {
-      "_id": "cdaed56d-8712-414d-b346-01905d0026f1",
       "title": "Used bike",
       "image": "https://0.allegroimg.com/s512/03d14e/0ca727674004a6b2a0bb00417620/BERNARD-L-Fixed-gear-single-speed-kolarzowka",
       "condition": "Brand new",
@@ -10,7 +9,6 @@
       "phone": "+48649832456"
     },
     {
-      "_id": "cdaed56d-8712-414d-b346-01905d0026f2",
       "title": "Brand new iphone",
       "image": "https://www.mediaexpert.pl/media/cache/gallery/images/13/1358878/Smartfon_APPLE_iPhone_8_Plus_64GB_Zloty-Front-Tyl.jpg",
       "condition": "Brand new",
@@ -20,7 +18,6 @@
       "phone": "+4815876456"
     },
     {
-      "_id": "cdaed56d-8712-414d-b346-01905d0026f3",
       "title": "Laptop",
       "image": "https://www.notebookcheck.net/uploads/tx_nbc2/0_1425_sz_1_i_222364_02.jpg",
       "condition": "Brand new",
@@ -30,7 +27,6 @@
       "phone": "+4412345678912"
     },
     {
-      "_id": "cdaed56d-8712-414d-b346-01905d0026f4",
       "title": "Used bike",
       "image": "https://0.allegroimg.com/s512/03d14e/0ca727674004a6b2a0bb00417620/BERNARD-L-Fixed-gear-single-speed-kolarzowka",
       "condition": "Brand new",
@@ -40,7 +36,6 @@
       "phone": "+48649832456"
     },
     {
-      "_id": "cdaed56d-8712-414d-b346-01905d0026f5",
       "title": "Brand new iphone",
       "image": "https://www.mediaexpert.pl/media/cache/gallery/images/13/1358878/Smartfon_APPLE_iPhone_8_Plus_64GB_Zloty-Front-Tyl.jpg",
       "condition": "PC",
@@ -50,7 +45,6 @@
       "phone": "+4815876456"
     },
     {
-      "_id": "cdaed56d-8712-414d-b346-01905d0026f6",
       "title": "Laptop",
       "image": "https://www.notebookcheck.net/uploads/tx_nbc2/0_1425_sz_1_i_222364_02.jpg",
       "condition": "Item",
@@ -60,7 +54,6 @@
       "phone": "+4412345678912"
     },
     {
-      "_id": "cdaed56d-8712-414d-b346-01905d0026f7",
       "title": "Used bike",
       "image": "https://0.allegroimg.com/s512/03d14e/0ca727674004a6b2a0bb00417620/BERNARD-L-Fixed-gear-single-speed-kolarzowka",
       "condition": "used iteam",
@@ -70,7 +63,6 @@
       "phone": "+48649832456"
     },
     {
-      "_id": "cdaed56d-8712-414d-b346-01905d0026f8",
       "title": "Brand new Samsung",
       "image": "https://www.mediaexpert.pl/media/cache/gallery/images/13/1358878/Smartfon_APPLE_iPhone_8_Plus_64GB_Zloty-Front-Tyl.jpg",
       "condition": "Brand new",
@@ -79,14 +71,34 @@
       "email": "fake@gmail.com",
       "phone": "+4815876456"
     },
-  {
-    "_id": "cdaed56d-8712-414d-b346-01905d0026f9",
-    "title": "Bugatti",
-    "image": "https://static.antyweb.pl/wp-content/uploads/2019/08/20182731/bugatti_centodieci_050.jpg",
-    "condition": "Used",
-    "price": 540000,
-    "description": "Vivamus feugiat maximus scelerisque. Etiam nisi arcu, consectetur non pretium in, mattis nec turpis. ",
-    "email": "richman@gmail.com",
-    "phone": "+4472345678912"
-  }
+    {
+      "title": "Bugatti",
+      "image": "https://static.antyweb.pl/wp-content/uploads/2019/08/20182731/bugatti_centodieci_050.jpg",
+      "condition": "Used",
+      "price": 540000,
+      "description": "Vivamus feugiat maximus scelerisque. Etiam nisi arcu, consectetur non pretium in, mattis nec turpis. ",
+      "email": "richman@gmail.com",
+      "phone": "+4472345678912"
+    },
+    {
+      "title": "Koenigsegg Jesko",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0833%29.jpg",
+      "condition": "Used",
+      "price": 54000000,
+      "description": "Vivamus feugiat maximus scelerisque. Etiam nisi arcu, consectetur non pretium in, mattis nec turpis. ",
+      "email": "richman@gmail.com",
+      "phone": "+4472345678912"
+    },
+    {
+      "title" : "La Ferrari",
+      "tag" : "Cars",
+      "image" : "https://i.ytimg.com/vi/4-ZXG0nBymU/maxresdefault.jpg",
+      "condition" : "Brand new",
+      "price" : 2000,
+      "description" : "Lorem ipsum...",
+      "email" : "fake@gmail.com",
+      "phone" : "+4412345678912",
+      "adAgreeTT" : true,
+      "adAgreePI" : true
+    }
 ]

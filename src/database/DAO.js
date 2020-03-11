@@ -4,6 +4,7 @@
 
 const dblib = require('./db.js');
 const client = dblib.getClient();
+const ObjectId = require('mongodb').ObjectId;
 
 const DAO = {
     findAds: () => {
@@ -18,7 +19,7 @@ const DAO = {
     findAd: (id) => {
         const client = dblib.getClient();
         return client.connect().then(() => {
-            return client.db().collection("ads").findOne({_id: id}).then(data => {
+            return client.db().collection("ads").findOne({_id: new ObjectId(id)}).then(data => {
                 client.close();
                 return data;
             });

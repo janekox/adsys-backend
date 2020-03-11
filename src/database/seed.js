@@ -16,17 +16,11 @@ const config = {
 };
 
 const seeder = new Seeder(config);
-const collections = seeder.readCollectionsFromPath(
-    path.resolve('./data'),
-    {
-        transformers: [Seeder.Transformers.replaceDocumentIdWithUnderscoreId],
-    },
-);
+const collections = seeder.readCollectionsFromPath(path.resolve('./data'));
 
-seeder
-    .import(collections)
+seeder.import(collections)
     .then(() => {
-        console.log('Success');
+        console.log('Successfully finished seeding database');
     })
     .catch(err => {
         console.log('Error', err);
