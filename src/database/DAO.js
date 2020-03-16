@@ -3,20 +3,23 @@
 // DAO = Data Access Object
 
 const dblib = require('./db.js');
-const client = dblib.getClient();
 const ObjectId = require('mongodb').ObjectId;
 
 const DAO = {
-    findAds: () => {
+    findAds: (userInput) => {
         const client = dblib.getClient();
         return client.connect().then(() => {
-            return client.db().collection("ads").find({}).toArray().then(data => {
+            const query = {};
+            if (userInput) {
+                query.title = new RegExp(`${userInput}`, 'i');
+            }
+            return client.db().collection("ads").find(query).toArray().then(data => {
                 client.close();
                 return data;
             });
         });
     },
-    findAd: (id) => {
+    getAd: (id) => {
         const client = dblib.getClient();
         return client.connect().then(() => {
             return client.db().collection("ads").findOne({_id: new ObjectId(id)}).then(data => {

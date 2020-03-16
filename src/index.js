@@ -23,7 +23,7 @@ const init = async () => {
         path: '/ads',
         handler: (request, h) => {
             console.log('Requested ads');
-            return DAO.findAds();
+            return DAO.findAds(request.query.title);
         }
     });
     server.route({
@@ -31,7 +31,7 @@ const init = async () => {
         path: '/ad/{id}',
         handler: (request, h) => {
             console.log(`Requested ad with id ${request.params.id}`);
-            return DAO.findAd(request.params.id);
+            return DAO.getAd(request.params.id);
         }
     });
 
