@@ -6,7 +6,8 @@
       "price": 1900,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elit odio, imperdiet id eros at, sollicitudin efficitur odio. Vivamus feugiat quam quis massa condimentum elementum. In ultrices bibendum turpis, quis sodales diam luctus at. Curabitur congue elementum orci, eu bibendum ante tristique sagittis. Quisque a tempor dui.",
       "email": "fake@gmail.com",
-      "phone": "+48649832456"
+      "phone": "+48649832456",
+      "hash": "0d9c00d642ad3b3a063bef8279637f2a"
     },
     {
       "title": "Brand new iphone",
@@ -15,7 +16,8 @@
       "price": 4900,
       "description": "Donec ligula turpis, rhoncus eget lobortis at, dapibus id diam. Ut tristique dolor sed diam luctus venenatis. Nunc suscipit leo dolor, eget efficitur magna pharetra et. Vivamus metus elit, vulputate a diam a, dictum mattis nisl. Donec nec vulputate enim, sit amet tempor dui. Praesent dignissim ex sit amet tincidunt aliquet.",
       "email": "fake@gmail.com",
-      "phone": "+4815876456"
+      "phone": "+4815876456",
+      "hash": "08fc93ba19266e87d4bf66c1ef24d0d6"
     },
     {
       "title": "Laptop",
@@ -24,7 +26,8 @@
       "price": 3400,
       "description": "Aliquam tincidunt diam id metus iaculis varius. Aenean congue elit dui, facilisis efficitur velit ultricies sed. Curabitur faucibus lectus id ex sodales, nec auctor ligula egestas.",
       "email": "fake@gmail.com",
-      "phone": "+4412345678912"
+      "phone": "+4412345678912",
+      "hash": "fe9bef513c031f1b6e9c9c7a26159b9e"
     },
     {
       "title": "Used bike",

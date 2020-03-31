@@ -2,6 +2,7 @@
 
 const Hapi = require('@hapi/hapi');
 const DAO = require('./database/DAO');
+const crypto = require('crypto');
 
 const init = async () => {
 
@@ -39,14 +40,18 @@ const init = async () => {
         method: 'POST',
         path: '/ad',
         handler: (request, h) => {
-            console.log('Requested ads');
-            console.log(request.payload);
-            return DAO.createAd(JSON.parse(request.payload));
+            console.log('Creating new ad');
+            const ts = (new Date()).getTime().toString();
+            const hash = crypto.createHash('md5').update(ts).digest("hex");
+
+            const data = JSON.parse(request.payload);
+            data.hash = hash;
+
+            return DAO.createAd(data).then(() => {
+                return {hash: hash};
+            })
         }
     });
-// todo 10/3/2020
-
-
     await server.start();
     console.log('Server running on %s', server.info.uri);
 };
