@@ -35,7 +35,22 @@ const init = async () => {
             return DAO.getAd(request.params.id);
         }
     });
-
+    server.route({
+        method: 'GET',
+        path: '/hash/{hash}',
+        handler: (request, h) => {
+            console.log(`Requested ad with hash ${request.params.hash}`);
+            return DAO.getAdByHash(request.params.hash);
+        }
+    });
+    server.route({
+        method: 'GET',
+        path: '/remove/{hash}',
+        handler: (request, h) => {
+            console.log(`Requested ad with hash ${request.params.hash}`);
+            return DAO.removeAd(request.params.hash);
+        }
+    });
     server.route({
         method: 'POST',
         path: '/ad',
