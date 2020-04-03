@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jbeynar/adsys-backend.git"
+    "url": "git+https://github.com/janekox/adsys-backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jbeynar/adsys-backend/issues"
+    "url": "https://github.com/janekox/adsys-backend/issues"
   },
-  "homepage": "https://github.com/jbeynar/adsys-backend#readme",
+  "homepage": "https://github.com/janekox/adsys-backend#readme",
   "dependencies": {
     "@hapi/hapi": "19.1.1",
     "mongo-seeding": "^3.4.0",
