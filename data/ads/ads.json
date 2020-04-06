@@ -1,107 +1,115 @@
 [
     {
       "title": "Used bike",
+      "tag": "Sports & Hobby",
       "image": "https://0.allegroimg.com/s512/03d14e/0ca727674004a6b2a0bb00417620/BERNARD-L-Fixed-gear-single-speed-kolarzowka",
-      "condition": "Brand new",
-      "price": 1900,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elit odio, imperdiet id eros at, sollicitudin efficitur odio. Vivamus feugiat quam quis massa condimentum elementum. In ultrices bibendum turpis, quis sodales diam luctus at. Curabitur congue elementum orci, eu bibendum ante tristique sagittis. Quisque a tempor dui.",
-      "email": "fake@gmail.com",
-      "phone": "+48649832456",
+      "condition": "Minimal Wear",
+      "price": 200,
+      "description": "Used: An item that has been previously used. The item may have some signs of cosmetic wear, but is fully operational and functions as intended. ",
+      "email": "dorypark@gmail.com",
+      "phone": "+44 1632 960271",
       "hash": "0d9c00d642ad3b3a063bef8279637f2a"
     },
-    {
-      "title": "Brand new iphone",
-      "image": "https://www.mediaexpert.pl/media/cache/gallery/images/13/1358878/Smartfon_APPLE_iPhone_8_Plus_64GB_Zloty-Front-Tyl.jpg",
-      "condition": "Brand new",
-      "price": 4900,
-      "description": "Donec ligula turpis, rhoncus eget lobortis at, dapibus id diam. Ut tristique dolor sed diam luctus venenatis. Nunc suscipit leo dolor, eget efficitur magna pharetra et. Vivamus metus elit, vulputate a diam a, dictum mattis nisl. Donec nec vulputate enim, sit amet tempor dui. Praesent dignissim ex sit amet tincidunt aliquet.",
-      "email": "fake@gmail.com",
-      "phone": "+4815876456",
-      "hash": "08fc93ba19266e87d4bf66c1ef24d0d6"
-    },
-    {
-      "title": "Laptop",
-      "image": "https://www.notebookcheck.net/uploads/tx_nbc2/0_1425_sz_1_i_222364_02.jpg",
-      "condition": "Brand new",
-      "price": 3400,
-      "description": "Aliquam tincidunt diam id metus iaculis varius. Aenean congue elit dui, facilisis efficitur velit ultricies sed. Curabitur faucibus lectus id ex sodales, nec auctor ligula egestas.",
-      "email": "fake@gmail.com",
-      "phone": "+4412345678912",
-      "hash": "fe9bef513c031f1b6e9c9c7a26159b9e"
-    },
-    {
-      "title": "Used bike",
-      "image": "https://0.allegroimg.com/s512/03d14e/0ca727674004a6b2a0bb00417620/BERNARD-L-Fixed-gear-single-speed-kolarzowka",
-      "condition": "Brand new",
-      "price": 1900,
-      "description": "Aliquam tincidunt diam id metus iaculis varius. Aenean congue elit dui, facilivsis efficitur velit ultricies sed. Curabituid ex sodales, nec auctor ligula egestas.",
-      "email": "fake@gmail.com",
-      "phone": "+48649832456"
-    },
-    {
-      "title": "Brand new iphone",
-      "image": "https://www.mediaexpert.pl/media/cache/gallery/images/13/1358878/Smartfon_APPLE_iPhone_8_Plus_64GB_Zloty-Front-Tyl.jpg",
-      "condition": "PC",
-      "price": 4900,
-      "description": "ed eu luctus sapien. Vestibulum euismod tempor commodo. Nulla sem eros, pellentesque ac odio non, sagittis commodo elit. Quisque ut leo vitae e",
-      "email": "fake@gmail.com",
-      "phone": "+4815876456"
-    },
-    {
-      "title": "Laptop",
-      "image": "https://www.notebookcheck.net/uploads/tx_nbc2/0_1425_sz_1_i_222364_02.jpg",
-      "condition": "Item",
-      "price": 3400,
-      "description": "Etiam suscipit ipsum pellentesque, eleifend mi eget, tincidunt justo. Mauris condimentum augue eget dictum maximus. Duis ut nunc sed risus vehicula semper in at felis. ",
-      "email": "fake@gmail.com",
-      "phone": "+4412345678912"
-    },
-    {
-      "title": "Used bike",
-      "image": "https://0.allegroimg.com/s512/03d14e/0ca727674004a6b2a0bb00417620/BERNARD-L-Fixed-gear-single-speed-kolarzowka",
-      "condition": "used iteam",
-      "price": 1900,
-      "description": "Maecenas arcu odio, blandit et ex sed, vestibulum gravida tortor. Suspendisse gravida, urna a pulvinar egestas,  ac consectetur neque enim tincidunt mauris. ",
-      "email": "fake@gmail.com",
-      "phone": "+48649832456"
-    },
-    {
-      "title": "Brand new Samsung",
-      "image": "https://www.mediaexpert.pl/media/cache/gallery/images/13/1358878/Smartfon_APPLE_iPhone_8_Plus_64GB_Zloty-Front-Tyl.jpg",
-      "condition": "Brand new",
-      "price": 4900,
-      "description": "Vivamus feugiat maximus scelerisque. Etiam nisi arcu, consectetur non pretium in, mattis nec turpis. Proin in auctor nibh, eget cursus lorem. Nullam at arcu lorem. ",
-      "email": "fake@gmail.com",
-      "phone": "+4815876456"
-    },
-    {
-      "title": "Bugatti",
-      "image": "https://static.antyweb.pl/wp-content/uploads/2019/08/20182731/bugatti_centodieci_050.jpg",
-      "condition": "Used",
-      "price": 540000,
-      "description": "Vivamus feugiat maximus scelerisque. Etiam nisi arcu, consectetur non pretium in, mattis nec turpis. ",
-      "email": "richman@gmail.com",
-      "phone": "+4472345678912"
-    },
-    {
-      "title": "Koenigsegg Jesko",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0833%29.jpg",
-      "condition": "Used",
-      "price": 54000000,
-      "description": "Vivamus feugiat maximus scelerisque. Etiam nisi arcu, consectetur non pretium in, mattis nec turpis. ",
-      "email": "richman@gmail.com",
-      "phone": "+4472345678912"
-    },
-    {
-      "title" : "La Ferrari",
-      "tag" : "Cars",
-      "image" : "https://i.ytimg.com/vi/4-ZXG0nBymU/maxresdefault.jpg",
-      "condition" : "Brand new",
-      "price" : 2000,
-      "description" : "Lorem ipsum...",
-      "email" : "fake@gmail.com",
-      "phone" : "+4412345678912",
-      "adAgreeTT" : true,
-      "adAgreePI" : true
-    }
+  {
+    "title": "Brand new Phone",
+    "tag": "Electronics",
+    "image": "Its a brand new phone never unboxed all original packing. Come with a charger and headphones.",
+    "condition": "Brand new",
+    "price": 350,
+    "description": " ",
+    "email": "feliksraplh@gmail.com",
+    "phone": "+44 1632 960152",
+    "hash": "08fc93ba19266e87d4bf66c1ef24d0d6"
+  },
+  {
+    "title": "Laptop",
+    "tag": "Electronics",
+    "image": "https://www.notebookcheck.net/uploads/tx_nbc2/0_1425_sz_1_i_222364_02.jpg",
+    "condition": "Used",
+    "price": 999,
+    "description": "This is a laptop that i had for about 4 years it works perfectly but it has signs of wear.",
+    "email": "Luckyred@gmail.com",
+    "phone": "+4412345678912",
+    "hash": "fe9bef513c031f1b6e9c9c7a26159b9e"
+  },
+  {
+    "title": "Tennis racket",
+    "tag": "Sports & Hobby",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.e-tennis.com%2Fwilson-blade-100l-v7-0-tennis-racquet.html&psig=AOvVaw0ZgmWibMHKV4mdf7m4uvJl&ust=1586299526750000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPi23rHw1OgCFQAAAAAdAAAAABAI",
+    "condition": "Brand new",
+    "price": 1900,
+    "description": "Never unboxed and never used",
+    "email": "gorgeboss@gmail.com",
+    "phone": "+44 1632 960372"
+  },
+  {
+    "title": "Surf Board",
+    "tag": "Sports & Hobby",
+    "image": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.redzsurfboard.com%2Fhydrofoil-surf%2F&psig=AOvVaw26CLS-jozu6wl2xp7bec1X&ust=1586299341066000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCGx9zv1OgCFQAAAAAdAAAAABAD",
+    "condition": "Minimal Wear",
+    "price": 820,
+    "description": "I have used this surfing board twice but unfortunately is to small for me so i need to sell it.",
+    "email": "Inga333@gmail.com",
+    "phone": "+44 1632 960042"
+  },
+  {
+    "title": "Headphones",
+    "tag": "Electronics",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FBluetooth-Headphones-LETSCOM-Wireless-Cellphone%2Fdp%2FB07TQM2FTD&psig=AOvVaw0mij2sg4d1SU29k5LbRCYx&ust=1586299612232000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNioh9rw1OgCFQAAAAAdAAAAABAD",
+    "condition": "Used",
+    "price": 120,
+    "description": "They are fully functional they are just used by me for 2 years",
+    "email": "richardparker@gmail.com",
+    "phone": "+4412345678912"
+  },
+  {
+    "title": "Gold Club",
+    "tag": "Sports & Hobby",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fglobal.rakuten.com%2Fen%2Fstore%2Fgolfpartner%2Fitem%2F2100209629939%2F&psig=AOvVaw1YcrtkN5L3HFV-AEhVocvS&ust=1586299906591000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjarevx1OgCFQAAAAAdAAAAABAD",
+    "condition": "Used and has damage",
+    "price": 340,
+    "description": "This club is a professional golf club with damage on the bottom of it",
+    "email": "stevethegolfer@gmail.com",
+    "phone": "+44 9832 960042"
+  },
+  {
+    "title": "Kitchen mixer",
+    "tag": "Electronics",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F61T%252Bt0mvxyL._AC_SX522_.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.com%2FNidouillet-Electric-Kitchen-6-Speed-Stainless%2Fdp%2FB07WFP9DVR&tbnid=fJCJoj6kNaT_MM&vet=12ahUKEwj1_e378tToAhVUw6YKHWF0Dz8QMygAegUIARDwAw..i&docid=sl_5cke_a95mTM&w=522&h=553&q=Kitchen%20mixer&safe=strict&ved=2ahUKEwj1_e378tToAhVUw6YKHWF0Dz8QMygAegUIARDwAw",
+    "condition": "Brand new",
+    "price": 540,
+    "description": "This is anew mixer that i purchased didnt fit my house so i decided to sell it.",
+    "email": "robblor@gmail.com",
+    "phone": "+44 9832 976042"
+  },
+  {
+    "title": "Fast car",
+    "tag": "Cars",
+    "image": "https://static.antyweb.pl/wp-content/uploads/2019/08/20182731/bugatti_centodieci_050.jpg",
+    "condition": "Used",
+    "price": 54000,
+    "description": "Brand ne car with over 700 hp !",
+    "email": "richman@gmail.com",
+    "phone": "+44 72345 678912"
+  },
+  {
+    "title": "Family car",
+    "tag": "Cars",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnet.com%2Froadshow%2Fbest-cars%2Fbest-family-cars%2F&psig=AOvVaw0WFn0AFHFCKJKRdp_7jbsn&ust=1586300498166000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDeiYH01OgCFQAAAAAdAAAAABAD",
+    "condition": "Used",
+    "price": 19000,
+    "description": "This is a perfect car for a family",
+    "email": "familyman@gmail.com",
+    "phone": "+44 7234 877892"
+  },
+  {
+    "title": "Toy",
+    "tag": "Kids",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Feu.sunnylife.com%2Fproducts%2Fbouncy-ball-small-rainbow-aw18&psig=AOvVaw24vO1AtC1HaBzuQ2xQJj4M&ust=1586300608439000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOC1sbX01OgCFQAAAAAdAAAAABAD",
+    "condition": "Brand new",
+    "price": 20,
+    "description": "That a perfect toy for a 1 year old baby",
+    "email": "childershop@gmail.com",
+    "phone": "+447654 567842"
+  }
 ]
